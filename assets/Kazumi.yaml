@@ -1,0 +1,1002 @@
+Kazumi:
+  moves:
+  - move:
+      block_frame: "\u2013"
+      command: in rage d+1+2
+      counter_hit_frame: KND
+      damage: '55'
+      hit_frame: KND
+      hit_level: m
+      start_up_frames: ''
+  - move:
+      block_frame: +1?
+      command: in rage f, F+1+2
+      counter_hit_frame: Launch
+      damage: 17,20
+      hit_frame: Launch
+      hit_level: m(, Sm)
+      start_up_frames: 13?(14?~)
+  - move:
+      block_frame: '+1'
+      command: '1'
+      counter_hit_frame: '+8'
+      damage: '7'
+      hit_frame: '+8'
+      hit_level: h
+      start_up_frames: '10'
+  - move:
+      block_frame: -1?
+      command: 1, 1
+      counter_hit_frame: +8?
+      damage: 7,6
+      hit_frame: '+8'
+      hit_level: h, h
+      start_up_frames: '10'
+  - move:
+      block_frame: '-17'
+      command: 1, 1, 2
+      counter_hit_frame: KND
+      damage: 7,6,12
+      hit_frame: KND
+      hit_level: h, h, m
+      start_up_frames: '10'
+  - move:
+      block_frame: '-4'
+      command: 1, 2
+      counter_hit_frame: +
+      damage: 7,8
+      hit_frame: '+4'
+      hit_level: h, h
+      start_up_frames: '10'
+  - move:
+      block_frame: '-12'
+      command: 1, 2, 2
+      counter_hit_frame: +?
+      damage: 7,8,12
+      hit_frame: +2?
+      hit_level: h, h, h
+      start_up_frames: '10'
+  - move:
+      block_frame: '-3'
+      command: '2'
+      counter_hit_frame: '+8'
+      damage: '10'
+      hit_frame: +8?
+      hit_level: h
+      start_up_frames: '12'
+  - move:
+      block_frame: '-5'
+      command: 2, 1
+      counter_hit_frame: +7?
+      damage: 10,10
+      hit_frame: '+7'
+      hit_level: h, m
+      start_up_frames: '12'
+  - move:
+      block_frame: "\u2013"
+      command: '3'
+      counter_hit_frame: '+8'
+      damage: '14'
+      hit_frame: '+8'
+      hit_level: m
+      start_up_frames: '15'
+  - move:
+      block_frame: -13?
+      command: 3, 1
+      counter_hit_frame: +k
+      damage: 14,20
+      hit_frame: +k
+      hit_level: m, m
+      start_up_frames: '15'
+  - move:
+      block_frame: -1s
+      command: 3, 2
+      counter_hit_frame: KND
+      damage: 14,17
+      hit_frame: KND
+      hit_level: m, h
+      start_up_frames: '15'
+  - move:
+      block_frame: '-14'
+      command: 1+2
+      counter_hit_frame: KND
+      damage: 8,8(,20)
+      hit_frame: KND
+      hit_level: mm(, Sm)
+      start_up_frames: 12,
+  - move:
+      block_frame: -30~?
+      command: 1+4
+      counter_hit_frame: KF(+)
+      damage: '30'
+      hit_frame: KF(+)
+      hit_level: Sm
+      start_up_frames: 12,
+  - move:
+      block_frame: -30~?
+      command: 2+3
+      counter_hit_frame: KND
+      damage: '10'
+      hit_frame: KND
+      hit_level: Sm
+      start_up_frames: 12,
+  - move:
+      block_frame: "\u2013"
+      command: f+2
+      counter_hit_frame: KND
+      damage: '25'
+      hit_frame: KND
+      hit_level: h
+      start_up_frames: '17'
+  - move:
+      block_frame: '-7'
+      command: f+3
+      counter_hit_frame: +7?
+      damage: '13'
+      hit_frame: '+7'
+      hit_level: m
+      start_up_frames: '18'
+  - move:
+      block_frame: +5?
+      command: f+3, f
+      counter_hit_frame: +?
+      damage: '13'
+      hit_frame: +
+      hit_level: m, (Special)
+      start_up_frames: '18'
+  - move:
+      block_frame: -9?
+      command: f+4
+      counter_hit_frame: +k
+      damage: '20'
+      hit_frame: +12k
+      hit_level: h
+      start_up_frames: 16~17
+  - move:
+      block_frame: '-3'
+      command: d/f+1
+      counter_hit_frame: +6?
+      damage: '10'
+      hit_frame: '+6'
+      hit_level: m
+      start_up_frames: '13'
+  - move:
+      block_frame: -13s
+      command: d/f+1, 2
+      counter_hit_frame: KND
+      damage: 10,21
+      hit_frame: KND
+      hit_level: m, m
+      start_up_frames: '13'
+  - move:
+      block_frame: -24~?
+      command: d/f+2
+      counter_hit_frame: Launch
+      damage: 20(,9)
+      hit_frame: Launch
+      hit_level: m (TC)?(, Sm)
+      start_up_frames: '18'
+  - move:
+      block_frame: '-11'
+      command: d/f+3
+      counter_hit_frame: 0?
+      damage: '14'
+      hit_frame: '0'
+      hit_level: m
+      start_up_frames: '14'
+  - move:
+      block_frame: "\u2013"
+      command: d+1
+      counter_hit_frame: +s
+      damage: '15'
+      hit_frame: +?
+      hit_level: m
+      start_up_frames: 16~17
+  - move:
+      block_frame: '-15'
+      command: d+1, 2
+      counter_hit_frame: KND
+      damage: 15,25
+      hit_frame: KND
+      hit_level: m, m
+      start_up_frames: 16~17
+  - move:
+      block_frame: -14s
+      command: d/b+2
+      counter_hit_frame: +6s
+      damage: '15'
+      hit_frame: '-1'
+      hit_level: l
+      start_up_frames: 20s
+  - move:
+      block_frame: -14?s
+      command: d/b+2, 3
+      counter_hit_frame: +s
+      damage: 15,12
+      hit_frame: '0'
+      hit_level: l, l
+      start_up_frames: 20s
+  - move:
+      block_frame: -11~-9?s
+      command: d/b+2, 3, 4
+      counter_hit_frame: KND
+      damage: 15,12,12
+      hit_frame: +8~s
+      hit_level: l, l, l
+      start_up_frames: 20s
+  - move:
+      block_frame: '-14'
+      command: d/b+3
+      counter_hit_frame: +2s
+      damage: '14'
+      hit_frame: +2s
+      hit_level: l
+      start_up_frames: '17'
+  - move:
+      block_frame: '-13'
+      command: d/b+4
+      counter_hit_frame: aUD
+      damage: '17'
+      hit_frame: '+4'
+      hit_level: l
+      start_up_frames: '20'
+  - move:
+      block_frame: '-4'
+      command: d/b+1+2
+      counter_hit_frame: TUD
+      damage: '20'
+      hit_frame: TUD
+      hit_level: m
+      start_up_frames: '20'
+  - move:
+      block_frame: "\u2013"
+      command: b+1
+      counter_hit_frame: ''
+      damage: '13'
+      hit_frame: +
+      hit_level: h
+      start_up_frames: '20'
+  - move:
+      block_frame: '-14'
+      command: b+1, 2
+      counter_hit_frame: +
+      damage: 13,20
+      hit_frame: +
+      hit_level: h, m
+      start_up_frames: '20'
+  - move:
+      block_frame: '-9'
+      command: b+2
+      counter_hit_frame: +k
+      damage: '12'
+      hit_frame: +12k
+      hit_level: m
+      start_up_frames: '15'
+  - move:
+      block_frame: '-13'
+      command: b+4
+      counter_hit_frame: hKZD
+      damage: '20'
+      hit_frame: '+9'
+      hit_level: m
+      start_up_frames: '19'
+  - move:
+      block_frame: ''
+      command: b+1+2
+      counter_hit_frame: ''
+      damage: 0,30
+      hit_frame: ' Attack returned TKF(+)'
+      hit_level: Attack returned(m, Sm)
+      start_up_frames: '19'
+  - move:
+      block_frame: ''
+      command: b+3+4
+      counter_hit_frame: ''
+      damage: ''
+      hit_frame: ''
+      hit_level: (Special) (TJ)
+      start_up_frames: '19'
+  - move:
+      block_frame: '-10'
+      command: u/b or u or u/f+2
+      counter_hit_frame: KND
+      damage: 12(,20)
+      hit_frame: KND
+      hit_level: h (TC)(, Sm)
+      start_up_frames: '15'
+  - move:
+      block_frame: '-12'
+      command: u/f+3
+      counter_hit_frame: KND
+      damage: '20'
+      hit_frame: KND
+      hit_level: m (TJ)
+      start_up_frames: 28~?
+  - move:
+      block_frame: '-7'
+      command: u/f+3, 4
+      counter_hit_frame: KND
+      damage: 20,12
+      hit_frame: KND
+      hit_level: m (TJ), m (TJ)
+      start_up_frames: 28~?
+  - move:
+      block_frame: '-15'
+      command: u/f+3, 4, 1
+      counter_hit_frame: +s
+      damage: 20,12,24
+      hit_frame: +s
+      hit_level: m (TJ), m (TJ), m
+      start_up_frames: 28~?
+  - move:
+      block_frame: '-16'
+      command: u/f+3, 4, 3
+      counter_hit_frame: +k
+      damage: 20,12,17
+      hit_frame: +k
+      hit_level: m (TJ), m (TJ), m
+      start_up_frames: 28~?
+  - move:
+      block_frame: -13?
+      command: u/b+4
+      counter_hit_frame: "\u2013"
+      damage: '11'
+      hit_frame: "\u2013"
+      hit_level: m
+      start_up_frames: '15'
+  - move:
+      block_frame: -13?
+      command: u+4
+      counter_hit_frame: Launch (JG?)
+      damage: '15'
+      hit_frame: KND
+      hit_level: m
+      start_up_frames: '15'
+  - move:
+      block_frame: '-13'
+      command: u/f+4
+      counter_hit_frame: Launch (JG?)
+      damage: '13'
+      hit_frame: Launch (JG?)
+      hit_level: m
+      start_up_frames: '15'
+  - move:
+      block_frame: '-13'
+      command: f, F+2
+      counter_hit_frame: Throw(KND)
+      damage: 17(,20)
+      hit_frame: Throw(KND)
+      hit_level: m(, (throw))
+      start_up_frames: 13?(14?~)
+  - move:
+      block_frame: -7?
+      command: f, F+4
+      counter_hit_frame: KND
+      damage: '21'
+      hit_frame: KND
+      hit_level: m
+      start_up_frames: 20?(21?~)
+  - move:
+      block_frame: '-12'
+      command: b, f+2
+      counter_hit_frame: FS(+) 19
+      damage: '12'
+      hit_frame: +
+      hit_level: m
+      start_up_frames: 15?(15?~)
+  - move:
+      block_frame: '-14'
+      command: b, f+2, 1
+      counter_hit_frame: +
+      damage: 12,9
+      hit_frame: +?
+      hit_level: m, m
+      start_up_frames: 15?(15?~)
+  - move:
+      block_frame: -9?
+      command: b, f+2, 1, 4
+      counter_hit_frame: +k
+      damage: 12,9,20
+      hit_frame: +13k
+      hit_level: m, m, h
+      start_up_frames: 15?(15?~)
+  - move:
+      block_frame: '-14'
+      command: b, f+2, 1, 1+2
+      counter_hit_frame: KND
+      damage: 12,9,13(,20)
+      hit_frame: KND
+      hit_level: m, m, m(, Sm)
+      start_up_frames: 15?(15?~)
+  - move:
+      block_frame: -4?
+      command: f, f, f+2
+      counter_hit_frame: KND
+      damage: '24'
+      hit_frame: KND
+      hit_level: m
+      start_up_frames: 15?(15?~)(~)
+  - move:
+      block_frame: "\u2013"
+      command: WS+1
+      counter_hit_frame: +
+      damage: '12'
+      hit_frame: +
+      hit_level: m
+      start_up_frames: '12'
+  - move:
+      block_frame: '-13'
+      command: WS+1, 2
+      counter_hit_frame: KND
+      damage: 12,23
+      hit_frame: KND
+      hit_level: m, m
+      start_up_frames: '12'
+  - move:
+      block_frame: '-12'
+      command: WS+2
+      counter_hit_frame: Launch (JG?)
+      damage: '20'
+      hit_frame: Launch (JG?)
+      hit_level: m
+      start_up_frames: '18'
+  - move:
+      block_frame: "\u2013"
+      command: WS+4
+      counter_hit_frame: '+8'
+      damage: '13'
+      hit_frame: '+8'
+      hit_level: m
+      start_up_frames: 11~12?
+  - move:
+      block_frame: -9?
+      command: WS+4, 4
+      counter_hit_frame: +13k?
+      damage: 13,16
+      hit_frame: +13k
+      hit_level: m, h
+      start_up_frames: 11~12?
+  - move:
+      block_frame: -14?
+      command: Opponent Down, d+2
+      counter_hit_frame: -3?
+      damage: '16'
+      hit_frame: -3?
+      hit_level: l(On grounded opponent)
+      start_up_frames: 11~12?
+  - move:
+      block_frame: ''
+      command: 2+3+4
+      counter_hit_frame: ''
+      damage: ''
+      hit_frame: ''
+      hit_level: (Special)
+      start_up_frames: 11~12?
+  - move:
+      block_frame: ''
+      command: When opponent attacks b+1+2
+      counter_hit_frame: ''
+      damage: '0'
+      hit_frame: ''
+      hit_level: Attack returned(m, Sm)
+      start_up_frames: 11~12?
+  - move:
+      block_frame: ''
+      command: When opponent attacks b+1+2 (on success)
+      counter_hit_frame: ''
+      damage: 0,30
+      hit_frame: KFUD
+      hit_level: m, Sm
+      start_up_frames: 11~12?
+  - move:
+      block_frame: ''
+      command: f+3+4
+      counter_hit_frame: ''
+      damage: ''
+      hit_frame: ''
+      hit_level: (Special) (TJ)
+      start_up_frames: 11~12?
+  - move:
+      block_frame: -13?
+      command: RSS 1
+      counter_hit_frame: mKZD
+      damage: '21'
+      hit_frame: mKZD
+      hit_level: m
+      start_up_frames: 11~12?
+  - move:
+      block_frame: '-6'
+      command: RSS 2
+      counter_hit_frame: Launch (JG?)
+      damage: '20'
+      hit_frame: Launch (JG?)
+      hit_level: h
+      start_up_frames: 11~12?
+  - move:
+      block_frame: ~-9?
+      command: RSS 3
+      counter_hit_frame: KND
+      damage: '20'
+      hit_frame: KND
+      hit_level: m
+      start_up_frames: 11~12?
+  - move:
+      block_frame: -24~?
+      command: RSS 4
+      counter_hit_frame: +s(KND)
+      damage: '17'
+      hit_frame: +5s(KND)
+      hit_level: l
+      start_up_frames: 11~12?
+  - move:
+      block_frame: '-9'
+      command: RSS 4, 2
+      counter_hit_frame: KND
+      damage: 17,20
+      hit_frame: KND
+      hit_level: l, m
+      start_up_frames: 11~12?
+  - move:
+      block_frame: '+2'
+      command: RSS 1+2
+      counter_hit_frame: KND
+      damage: '20'
+      hit_frame: KND
+      hit_level: m
+      start_up_frames: 11~12?
+  - move:
+      block_frame: sKZD
+      command: RSS f+1+2
+      counter_hit_frame: sKZD
+      damage: '30'
+      hit_frame: sKZD
+      hit_level: '!'
+      start_up_frames: 11~12?
+  - move:
+      block_frame: ''
+      command: RSS b+1+2
+      counter_hit_frame: ''
+      damage: '10'
+      hit_frame: Throw(+8)
+      hit_level: m(Throw), m
+      start_up_frames: 11~12?
+  - move:
+      block_frame: Block frame
+      command: Command
+      counter_hit_frame: Counter hit frame
+      damage: Damage
+      hit_frame: Hit frame
+      hit_level: Hit level
+      start_up_frames: Start up frame
+  - move:
+      block_frame: '+1'
+      command: '1'
+      counter_hit_frame: '+8'
+      damage: '7'
+      hit_frame: '+8'
+      hit_level: h
+      start_up_frames: '10'
+  - move:
+      block_frame: '-3'
+      command: '2'
+      counter_hit_frame: '+8'
+      damage: '10'
+      hit_frame: +8?
+      hit_level: h
+      start_up_frames: '12'
+  - move:
+      block_frame: "\u2013"
+      command: '3'
+      counter_hit_frame: '+8'
+      damage: '14'
+      hit_frame: '+8'
+      hit_level: m
+      start_up_frames: '15'
+  - move:
+      block_frame: "\u2013"
+      command: '4'
+      counter_hit_frame: Launch (JG?)
+      damage: '18'
+      hit_frame: +
+      hit_level: h
+      start_up_frames: '11'
+  - move:
+      block_frame: "\u2013"
+      command: b+1
+      counter_hit_frame: ''
+      damage: '13'
+      hit_frame: +
+      hit_level: h
+      start_up_frames: '20'
+  - move:
+      block_frame: '-9'
+      command: b+2
+      counter_hit_frame: ''
+      damage: '12'
+      hit_frame: +12k
+      hit_level: m
+      start_up_frames: '15'
+  - move:
+      block_frame: "\u2013"
+      command: b+3
+      counter_hit_frame: +3?
+      damage: '16'
+      hit_frame: '+3'
+      hit_level: m
+      start_up_frames: '16'
+  - move:
+      block_frame: '-13'
+      command: b+4
+      counter_hit_frame: CS
+      damage: '20'
+      hit_frame: '+9'
+      hit_level: m
+      start_up_frames: '19'
+  - move:
+      block_frame: '+1'
+      command: f+1
+      counter_hit_frame: '+8'
+      damage: '7'
+      hit_frame: '+8'
+      hit_level: h
+      start_up_frames: '10'
+  - move:
+      block_frame: "\u2013"
+      command: f+2
+      counter_hit_frame: ATD
+      damage: '25'
+      hit_frame: ATD
+      hit_level: h
+      start_up_frames: '17'
+  - move:
+      block_frame: '-7'
+      command: f+3
+      counter_hit_frame: +7?
+      damage: '13'
+      hit_frame: '+7'
+      hit_level: m
+      start_up_frames: '18'
+  - move:
+      block_frame: -9?
+      command: f+4
+      counter_hit_frame: ''
+      damage: '20'
+      hit_frame: +12k
+      hit_level: h
+      start_up_frames: '16'
+  - move:
+      block_frame: '+1'
+      command: f, F+1
+      counter_hit_frame: '+8'
+      damage: '9'
+      hit_frame: '+8'
+      hit_level: h
+      start_up_frames: 10(11~)
+  - move:
+      block_frame: '-13'
+      command: f, F+2
+      counter_hit_frame: Throw(KND)
+      damage: '17'
+      hit_frame: Throw(KND)
+      hit_level: m(, Tiger)
+      start_up_frames: 13?(14?~)
+  - move:
+      block_frame: '-7'
+      command: f, F+3
+      counter_hit_frame: +7?
+      damage: '13'
+      hit_frame: '+7'
+      hit_level: m
+      start_up_frames: 18(19~)
+  - move:
+      block_frame: -5?
+      command: f, F+4
+      counter_hit_frame: KND
+      damage: '20'
+      hit_frame: KND
+      hit_level: m
+      start_up_frames: 20?(21?~)
+  - move:
+      block_frame: "\u2013"
+      command: d+1
+      counter_hit_frame: +?
+      damage: '15'
+      hit_frame: +?
+      hit_level: m
+      start_up_frames: 16~17
+  - move:
+      block_frame: '-4'
+      command: d+2
+      counter_hit_frame: '+7'
+      damage: '10'
+      hit_frame: '+7'
+      hit_level: Sm (TC)
+      start_up_frames: 11 RC
+  - move:
+      block_frame: '-17'
+      command: d+3
+      counter_hit_frame: '-3'
+      damage: '12'
+      hit_frame: '-3'
+      hit_level: l (TC)
+      start_up_frames: 16 RC
+  - move:
+      block_frame: -13?,-14?
+      command: d+4
+      counter_hit_frame: ''
+      damage: '10'
+      hit_frame: -?
+      hit_level: l (TC)?
+      start_up_frames: '16'
+  - move:
+      block_frame: '-13'
+      command: d+3+4
+      counter_hit_frame: '-2'
+      damage: '7'
+      hit_frame: '-2'
+      hit_level: l (TC)
+      start_up_frames: 12 RC
+  - move:
+      block_frame: '-5'
+      command: d/b+1
+      counter_hit_frame: '+6'
+      damage: '6'
+      hit_frame: '+6'
+      hit_level: Sm (TC)
+      start_up_frames: 10 RC
+  - move:
+      block_frame: -14s
+      command: d/b+2
+      counter_hit_frame: +6s
+      damage: '13'
+      hit_frame: '-1'
+      hit_level: l
+      start_up_frames: 20s
+  - move:
+      block_frame: '-14'
+      command: d/b+3
+      counter_hit_frame: +2s
+      damage: '14'
+      hit_frame: +2s
+      hit_level: l
+      start_up_frames: '17'
+  - move:
+      block_frame: '-13'
+      command: d/b+4
+      counter_hit_frame: aUD
+      damage: '17'
+      hit_frame: '+4'
+      hit_level: l
+      start_up_frames: '20'
+  - move:
+      block_frame: '-5'
+      command: FC+1
+      counter_hit_frame: '+6'
+      damage: '6'
+      hit_frame: '+6'
+      hit_level: Sm (TC)
+      start_up_frames: 10 RC
+  - move:
+      block_frame: '-4'
+      command: FC+2
+      counter_hit_frame: '+7'
+      damage: '10'
+      hit_frame: '+7'
+      hit_level: Sm (TC)
+      start_up_frames: 11 RC
+  - move:
+      block_frame: '-17'
+      command: FC+3
+      counter_hit_frame: '-3'
+      damage: '16'
+      hit_frame: '-3'
+      hit_level: l (TC)
+      start_up_frames: 16 RC
+  - move:
+      block_frame: "\u2013"
+      command: FC+d/b+4
+      counter_hit_frame: ''
+      damage: ''
+      hit_frame: ''
+      hit_level: l (TC)
+      start_up_frames: 13~? RC
+  - move:
+      block_frame: '-15'
+      command: FC+d+4
+      counter_hit_frame: '-4'
+      damage: '13'
+      hit_frame: '-4'
+      hit_level: l (TC)
+      start_up_frames: 12 RC
+  - move:
+      block_frame: ''
+      command: FC+d/f+4
+      counter_hit_frame: ''
+      damage: ''
+      hit_frame: ''
+      hit_level: l (TC)
+      start_up_frames: 12 RC?
+  - move:
+      block_frame: "\u2013"
+      command: WS+1
+      counter_hit_frame: +
+      damage: '12'
+      hit_frame: +
+      hit_level: m
+      start_up_frames: '12'
+  - move:
+      block_frame: '-12'
+      command: WS+2
+      counter_hit_frame: Launch (JG?)
+      damage: '20'
+      hit_frame: Launch (JG?)
+      hit_level: m
+      start_up_frames: '18'
+  - move:
+      block_frame: "\u2013"
+      command: WS+3
+      counter_hit_frame: KND
+      damage: '20'
+      hit_frame: KND
+      hit_level: m
+      start_up_frames: '15'
+  - move:
+      block_frame: "\u2013"
+      command: WS+4
+      counter_hit_frame: '+8'
+      damage: '13'
+      hit_frame: '+8'
+      hit_level: m
+      start_up_frames: 11~12?
+  - move:
+      block_frame: '-3'
+      command: d/f+1
+      counter_hit_frame: +6?
+      damage: '10'
+      hit_frame: '+6'
+      hit_level: m
+      start_up_frames: '13'
+  - move:
+      block_frame: -24~?
+      command: d/f+2
+      counter_hit_frame: Launch
+      damage: 17(,14)
+      hit_frame: Launch
+      hit_level: m (TC)?(, Tiger)
+      start_up_frames: '18'
+  - move:
+      block_frame: '-11'
+      command: d/f+3
+      counter_hit_frame: 0?
+      damage: '14'
+      hit_frame: '0'
+      hit_level: m
+      start_up_frames: '14'
+  - move:
+      block_frame: "\u2013"
+      command: d/f+4
+      counter_hit_frame: +
+      damage: '16'
+      hit_frame: +
+      hit_level: m
+      start_up_frames: '15'
+  - move:
+      block_frame: '-8'
+      command: u/b or u or u/f+1
+      counter_hit_frame: '+3'
+      damage: '16'
+      hit_frame: '+3'
+      hit_level: m (TJ)
+      start_up_frames: '18'
+  - move:
+      block_frame: -10?
+      command: u/b or u+2
+      counter_hit_frame: KND
+      damage: 12(,20)
+      hit_frame: KND
+      hit_level: h (TC)(, Tiger)
+      start_up_frames: '15'
+  - move:
+      block_frame: '-10'
+      command: u/f+2
+      counter_hit_frame: KND
+      damage: 12(,20)
+      hit_frame: KND
+      hit_level: h (TC)(, Tiger)
+      start_up_frames: '15'
+  - move:
+      block_frame: "\u2013"
+      command: u/b or u+3
+      counter_hit_frame: ''
+      damage: ''
+      hit_frame: ''
+      hit_level: m (TJ)
+      start_up_frames: '15'
+  - move:
+      block_frame: '-12'
+      command: u/f+3
+      counter_hit_frame: KND
+      damage: '20'
+      hit_frame: KND
+      hit_level: m (TJ)
+      start_up_frames: 28~?
+  - move:
+      block_frame: -13?
+      command: u/b or u+4
+      counter_hit_frame: Launch (JG?)
+      damage: '15'
+      hit_frame: KND
+      hit_level: m
+      start_up_frames: '15'
+  - move:
+      block_frame: '-13'
+      command: u/f+4
+      counter_hit_frame: Launch (JG?)
+      damage: '13'
+      hit_frame: Launch (JG?)
+      hit_level: m
+      start_up_frames: '15'
+  - move:
+      block_frame: '+1'
+      command: SS+1
+      counter_hit_frame: '+8'
+      damage: '9'
+      hit_frame: '+8'
+      hit_level: h
+      start_up_frames: 10(11~)
+  - move:
+      block_frame: '-3'
+      command: SS+2
+      counter_hit_frame: '+8'
+      damage: '13'
+      hit_frame: +8?
+      hit_level: h
+      start_up_frames: 12(13~)
+  - move:
+      block_frame: "\u2013"
+      command: SS+3
+      counter_hit_frame: '+8'
+      damage: '14'
+      hit_frame: '+8'
+      hit_level: m
+      start_up_frames: 15(~)
+  - move:
+      block_frame: "\u2013"
+      command: SS+4
+      counter_hit_frame: Launch (JG?)
+      damage: '18'
+      hit_frame: +
+      hit_level: h
+      start_up_frames: 11(~)
+  - move:
+      block_frame: '-8'
+      command: BT 1 or 2
+      counter_hit_frame: '+3'
+      damage: '20'
+      hit_frame: '+3'
+      hit_level: h
+      start_up_frames: '8'
+  - move:
+      block_frame: '-8'
+      command: BT 3 or 4
+      counter_hit_frame: KND
+      damage: '33'
+      hit_frame: KND
+      hit_level: h
+      start_up_frames: '10'
+  - move:
+      block_frame: '-2'
+      command: BT d+1 or 2
+      counter_hit_frame: '+9'
+      damage: '10'
+      hit_frame: '+9'
+      hit_level: Sm
+      start_up_frames: 10s
+  - move:
+      block_frame: '-11'
+      command: BT d+3 or 4
+      counter_hit_frame: '+3'
+      damage: '12'
+      hit_frame: '+3'
+      hit_level: l
+      start_up_frames: 10s
